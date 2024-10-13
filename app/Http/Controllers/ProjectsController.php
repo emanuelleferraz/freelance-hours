@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Project;
-use Illuminate\Http\Request;
 
 class ProjectsController extends Controller
 {
@@ -12,8 +11,8 @@ class ProjectsController extends Controller
         return view('projects.index');
     }
 
-    public function show(Project $project)
-    {
-        return view('projects.show', compact('project'));
+    public function show(Project $project){
+    
+    return view('projects.show', compact('project'));
     }
 }
