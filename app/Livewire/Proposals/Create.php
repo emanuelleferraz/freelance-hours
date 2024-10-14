@@ -5,8 +5,8 @@ namespace App\Livewire\Proposals;
 use App\Actions\ArrangePositions;
 use App\Models\Project;
 use App\Models\Proposal;
+use App\Notifications\LostPosition;
 use App\Notifications\NewProposal;
-use App\Notifications\PerdeuMane;
 use Illuminate\Support\Facades\DB;
 use Livewire\Attributes\Rule;
 use Livewire\Attributes\Validate;
@@ -66,7 +66,7 @@ class Create extends Component
             $oProposal = Proposal::find($otherProposal->id);
             
             $oProposal->update(['position_status' => 'down']);
-            $oProposal->notify(new PerdeuMane($this->project));
+            $oProposal->notify(new LostPosition($this->project));
         }
         ArrangePositions::run($proposal->project_id);
     }
