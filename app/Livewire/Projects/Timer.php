@@ -11,7 +11,6 @@ class Timer extends Component
 
     public function render()
     {
-        //calculando a diferença para encerrar a proposta
         $diff = now()->diff($this->project->ends_at);
 
         return view('livewire.projects.timer', [
