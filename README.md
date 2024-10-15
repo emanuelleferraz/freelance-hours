@@ -4,9 +4,9 @@ Bem-vindo à Plataforma de Alocação de Desenvolvedores, uma aplicação que co
 
 ## Tecnologias Utilizadas
 
-- [![Laravel](https://img.shields.io/badge/-Laravel-EF3B2D?style=for-the-badge&logo=laravel: Framework PHP para desenvolvimento web.
-- [![Composer](https://img.shields.io/badge/-Composer-885630?style=for-the-badge&logo=composer&logoColor=white)](https://getcomposer.org/): Gerenciador de dependências para PHP.
-- [![PHP](https://img.shields.io/badge/-PHP-6959CD?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/): Linguagem de programação para a lógica do servidor.
+- [![Laravel](https://img.shields.io/badge/-Laravel-EF3B2D?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com/): Framework PHP para desenvolvimento web.
+- [![Composer](https://img.shields.io/badge/-Composer-885630?style=for-the-badge&logo=composer&logoColor=white)](https://getcomposer.org/) Gerenciador de dependências para PHP.
+- [![PHP](https://img.shields.io/badge/-PHP-6959CD?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/) Linguagem de programação para a lógica do servidor.
 
 ## Funcionalidades
 
