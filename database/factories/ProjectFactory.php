@@ -15,7 +15,7 @@ class ProjectFactory extends Factory
     {
         return [
             'title' => collect(fake()->words(5))->join(' '),
-            'description' => "oi",
+            'description' => "Aplicação para alocação de Devs Freelancer",
             'ends_at' => fake()->dateTimeBetween('now', '+ 3 days'),
             'status' => fake()->randomElement(['open', 'closed']),
             'tech_stack' => fake()->randomElements(['nodejs', 'react', 'javascript', 'vite', 'nextjs'], random_int(1, 5)),
