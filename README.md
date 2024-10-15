@@ -1,6 +1,6 @@
-# Plataforma de Alocação de Desenvolvedores
+# 👩‍💻 Plataforma de Alocação de Desenvolvedores
 
-Bem-vindo à Plataforma de Alocação de Desenvolvedores, uma aplicação que conecta desenvolvedores a projetos em busca de propostas. Aqui, os desenvolvedores podem explorar projetos disponíveis e enviar suas propostas, facilitando a colaboração e a alocação de talentos.
+Bem-vindo ao FreelanceHours, uma aplicação que conecta desenvolvedores a projetos em busca de propostas. Aqui, os desenvolvedores podem explorar projetos disponíveis e enviar suas propostas, facilitando a colaboração e a alocação de talentos.
 
 ## Tecnologias Utilizadas
 
